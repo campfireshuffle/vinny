@@ -199,7 +199,7 @@ jobs:
           KEYS
 
           GIT_SSH_COMMAND="ssh -i $key -o IdentitiesOnly=yes" \
-            git clone git@github.com:sarimabbas/homebrew-tap.git "$RUNNER_TEMP/homebrew-tap"
+            git clone git@github.com:campfireshuffle/homebrew-tap.git "$RUNNER_TEMP/homebrew-tap"
 
           sha256="$(shasum -a 256 "$ARCHIVE" | awk '{print $1}')"
           cask="$RUNNER_TEMP/homebrew-tap/Casks/vinny.rb"
@@ -223,7 +223,7 @@ jobs:
           {
             echo "### Homebrew cask update"
             echo "Open and merge the protected tap pull request:"
-            echo "https://github.com/sarimabbas/homebrew-tap/compare/main...${branch}?expand=1"
+            echo "https://github.com/campfireshuffle/homebrew-tap/compare/main...${branch}?expand=1"
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Remove Homebrew credentials

@@ -5,7 +5,7 @@
 
 Vinny is a small VNC server for macOS. It runs in the menu bar and lets you choose a display, capture size, frame rate, and whether viewers can control the Mac.
 
-![Vinny the robot on top of the install command: brew install --cask sarimabbas/tap/vinny](assets/preview.webp)
+![Vinny the robot on top of the install command: brew install --cask campfireshuffle/tap/vinny](assets/preview.webp)
 
 ## Install
 
@@ -14,7 +14,7 @@ Requires macOS 12.3 or newer. The published download is for Apple silicon (ARM64
 With Homebrew:
 
 ```bash
-brew install --cask sarimabbas/tap/vinny
+brew install --cask campfireshuffle/tap/vinny
 ```
 
 Or [download v0.2.5 for Apple silicon](https://github.com/sarimabbas/vinny/releases/download/v0.2.5/vinny-0.2.5-macos-arm64.zip), unzip it, and move `Vinny.app` to Applications. [Release notes and checksums](https://github.com/sarimabbas/vinny/releases/latest).

@@ -63,7 +63,7 @@ All release credentials are GitHub environment secrets in `release`, restricted 
 - `APPLE_API_ISSUER_ID`
 - `HOMEBREW_TAP_DEPLOY_KEY_B64`
 
-The Homebrew key can write only to `sarimabbas/homebrew-tap`. The release token can write only to the Vinny repository.
+The Homebrew key can write only to `campfireshuffle/homebrew-tap`. The release token can write only to the Vinny repository.
 
 Never commit certificates, private keys, passwords, or deploy keys. Apple provides the App Store Connect `.p8` only once, so keep an encrypted backup. Rotate any credential that may have leaked.
 

@@ -17,7 +17,7 @@ With Homebrew:
 brew install --cask campfireshuffle/tap/vinny
 ```
 
-Or [download v0.2.5 for Apple silicon](https://github.com/campfireshuffle/vinny/releases/download/v0.2.5/vinny-0.2.5-macos-arm64.zip), unzip it, and move `Vinny.app` to Applications. [Release notes and checksums](https://github.com/campfireshuffle/vinny/releases/latest).
+Or [download v0.2.6 for Apple silicon](https://github.com/campfireshuffle/vinny/releases/download/v0.2.6/vinny-0.2.6-macos-arm64.zip), unzip it, and move `Vinny.app` to Applications. [Release notes and checksums](https://github.com/campfireshuffle/vinny/releases/latest).
 
 ## Connect
 

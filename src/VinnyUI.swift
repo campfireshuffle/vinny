@@ -898,14 +898,14 @@ private final class VinnyAppDelegate: NSObject, NSApplicationDelegate, NSWindowD
     }
 
     @objc private func openConnectionGuide() {
-        guard let url = URL(string: "https://github.com/sarimabbas/vinny/blob/main/docs/first-connection.md") else { return }
+        guard let url = URL(string: "https://github.com/campfireshuffle/vinny/blob/main/docs/first-connection.md") else { return }
         NSWorkspace.shared.open(url)
     }
 
     @objc private func showAbout() {
         NSApp.activate(ignoringOtherApps: true)
         let credits = NSMutableAttributedString(string: "Open-source VNC for macOS.\n\n")
-        if let url = URL(string: "https://github.com/sarimabbas/vinny") {
+        if let url = URL(string: "https://github.com/campfireshuffle/vinny") {
             credits.append(NSAttributedString(string: "GitHub", attributes: [.link: url]))
         }
         NSApp.orderFrontStandardAboutPanel(options: [.credits: credits])

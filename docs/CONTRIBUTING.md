@@ -2,7 +2,7 @@
 
 ## Before opening an issue
 
-- Use [GitHub issues](https://github.com/sarimabbas/vinny/issues/new/choose) for usage questions.
+- Use [GitHub issues](https://github.com/campfireshuffle/vinny/issues/new/choose) for usage questions.
 - Report security vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
 - Security reports should identify whether the listener used unauthenticated, legacy VNC, or VeNCrypt/X.509 TLS security.
 

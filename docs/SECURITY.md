@@ -6,7 +6,7 @@ Security fixes are provided for the latest release only. See [threat-model.md](t
 
 ## Reporting a vulnerability
 
-Report vulnerabilities through [GitHub private vulnerability reporting](https://github.com/sarimabbas/vinny/security/advisories/new). Do not open a public issue before a fix is available.
+Report vulnerabilities through [GitHub private vulnerability reporting](https://github.com/campfireshuffle/vinny/security/advisories/new). Do not open a public issue before a fix is available.
 
 Include the affected version, reproduction steps, impact, and suggested fix if you have one. Expect an initial response within seven days.
 

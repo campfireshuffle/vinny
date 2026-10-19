@@ -1,7 +1,7 @@
 # Vinny
 
-[![CI](https://github.com/sarimabbas/vinny/actions/workflows/ci.yml/badge.svg)](https://github.com/sarimabbas/vinny/actions/workflows/ci.yml)
-[![Latest release](https://img.shields.io/github/v/release/sarimabbas/vinny)](https://github.com/sarimabbas/vinny/releases/latest)
+[![CI](https://github.com/campfireshuffle/vinny/actions/workflows/ci.yml/badge.svg)](https://github.com/campfireshuffle/vinny/actions/workflows/ci.yml)
+[![Latest release](https://img.shields.io/github/v/release/campfireshuffle/vinny)](https://github.com/campfireshuffle/vinny/releases/latest)
 
 Vinny is a small VNC server for macOS. It runs in the menu bar and lets you choose a display, capture size, frame rate, and whether viewers can control the Mac.
 
@@ -17,7 +17,7 @@ With Homebrew:
 brew install --cask campfireshuffle/tap/vinny
 ```
 
-Or [download v0.2.5 for Apple silicon](https://github.com/sarimabbas/vinny/releases/download/v0.2.5/vinny-0.2.5-macos-arm64.zip), unzip it, and move `Vinny.app` to Applications. [Release notes and checksums](https://github.com/sarimabbas/vinny/releases/latest).
+Or [download v0.2.5 for Apple silicon](https://github.com/campfireshuffle/vinny/releases/download/v0.2.5/vinny-0.2.5-macos-arm64.zip), unzip it, and move `Vinny.app` to Applications. [Release notes and checksums](https://github.com/campfireshuffle/vinny/releases/latest).
 
 ## Connect
 

@@ -34,7 +34,7 @@
 Equivalent command-line trigger:
 
 ```bash
-gh workflow run Release --repo sarimabbas/vinny --ref main -f version=0.2.0
+gh workflow run Release --repo campfireshuffle/vinny --ref main -f version=0.2.0
 ```
 
 The workflow rejects a version that does not match Cargo and the app plist, or one that has already been published.
